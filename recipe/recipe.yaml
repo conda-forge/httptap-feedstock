@@ -1,6 +1,6 @@
 context:
   name: httptap
-  version: 0.0.8
+  version: "0.1.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/monasticacademy/${{ name }}/archive/v${{ version }}.tar.gz
-  sha256: 14d221aefd484b7fb2163765f1281f09699f2ffa0ae4a785effa5cb9c2c6532f
+  sha256: dc6b99f20b1ab33f6801050a2367529a235c2b1a654d24f908b1f1bf62a36457
 
 build:
   number: 0
